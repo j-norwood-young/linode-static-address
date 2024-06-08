@@ -4,6 +4,7 @@ import { fetch_domains, fetch_domain_records, create_domain_record, update_domai
 import { public_ip } from "./ip.js";
 
 export const update = async () => {
+    console.log("Checking DNS record");
     const config = JSON.parse(await fs.readFile("config.json", "utf-8"));
     const domains = await fetch_domains();
     const domain = domains.find((domain) => domain.domain === config.dns.domain);
