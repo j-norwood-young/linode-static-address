@@ -1,0 +1,17 @@
+{
+  "name": "linode-static-address",
+  "version": "1.0.0",
+  "description": "Fetches the current public IP and then updates the relevant Linode DNS record if it's changed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Jason Norwood-Young <jason@10layer.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  },
+  "type": "module"
+}

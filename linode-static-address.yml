@@ -1,0 +1,9 @@
+# linode-static-address.yml
+
+dns_records:
+  - name: alpha.sourcery.info
+    type: A
+    ttl: 3600
+ip_service: "https://icanhazip.com"
+linode_token: "your-linode-token"
+linode_domain: "sourcery.info"

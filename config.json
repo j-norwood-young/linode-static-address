@@ -1,0 +1,9 @@
+{
+    "dns": {
+        "domain": "sourcery.info",
+        "subdomain": "alpha",
+        "type": "A",
+        "ttl": 300
+    },
+    "ip_lookup_service": "https://icanhazip.com"
+}
